@@ -5,9 +5,8 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
-      <p>
-        {" "}
+      <div class="container">
+        <h1>Weather App</h1>{" "}
         <footer>
           <a
             href="https://github.com/Julia-swift/react-weather-app"
@@ -18,7 +17,7 @@ function App() {
           </a>
           {""} by Yuliya Stryzhova
         </footer>
-      </p>
+      </div>
     </div>
   );
 }
