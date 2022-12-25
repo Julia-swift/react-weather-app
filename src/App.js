@@ -1,12 +1,14 @@
 import React from "react";
+import Weather from "./Weather";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <div class="container">
-        <h1>Weather App</h1>{" "}
+      <div className="container">
+        
+        <Weather />
         <footer>
           <a
             href="https://github.com/Julia-swift/react-weather-app"
