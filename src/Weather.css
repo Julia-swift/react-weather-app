@@ -31,10 +31,10 @@
 
 .WeatherInfo canvas {
   display: inline-block;
-  margin-right: 7px;
+  margin-right: 5px;
 }
 
-.WeatherInfo .temperature {
+.WeatherTemperature .temperature {
   font-weight: bold;
   color: rgb(33, 33, 33);
   font-size: 58px;
@@ -42,11 +42,11 @@
   font-weight: 400;
 }
 
-.WeatherInfo .unit {
+.WeatherTemperature .unit {
   color: rgb(33, 33, 33);
   font-size: 16px;
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -30px;
+  top: -29px;
 }
