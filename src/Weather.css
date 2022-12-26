@@ -50,3 +50,13 @@
   line-height: 1;
   top: -30px;
 }
+
+@media (max-width: 500px) {
+  .WeatherTemperature strong {
+    font-size: 34px;
+  }
+  .WeatherInfo li {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
