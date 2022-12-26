@@ -29,10 +29,8 @@
   list-style: none;
 }
 
-.WeatherInfo img {
-  height: 68px;
+.WeatherInfo canvas {
   display: inline-block;
-  margin-top: -5px;
   margin-right: 7px;
 }
 
