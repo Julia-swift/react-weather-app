@@ -51,12 +51,27 @@
   top: -30px;
 }
 
-@media (max-width: 500px) {
-  .WeatherTemperature strong {
-    font-size: 34px;
+@media (max-width: 450px) {
+  .WeatherTemperature .temperature {
+    font-size: 46px;
+    margin-right: 5px;
   }
+
+  .WeatherInfo canvas {
+    size: 46px;
+  }
+
   .WeatherInfo li {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .WeatherInfo .mobile {
+    margin-top: 7px;
+  }
+
+  .WeatherTemperature .unit {
+    font-size: 12px;
+    position: relative;
+    top: -23px;
   }
 }
